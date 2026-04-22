@@ -38,11 +38,11 @@ byteorder = "1.3.4"
 crate-type = ["cdylib", "lib"]
 
 [dev-dependencies]
-rand = "0.7.3"
+rand = "0.8.4"
 hexdump = "0.1.0"
 proptest = "1.0.0"
 proptest-derive = "0.3.0"
-bumpalo = { version = "3.4.0", features = ["collections"] }
+bumpalo = { version = "3.11.1", features = ["collections"] }
 
 [profile.release]
 lto = "fat"
